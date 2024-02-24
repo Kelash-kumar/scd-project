@@ -1,4 +1,5 @@
 # scd-project
-This educational website made up of html,css and javascript.
-
-<a href='https://eduor.vercel.app/' target='_blank' >website template</a>
+ <h1>this is education website </h1>
+    <p>we are providing best education for your kids</p>
+    <p>This website is made up using HTML CSS AND</p>
+     <a href="http://" target="_blank" rel="noopener noreferrer">website template design</a>
