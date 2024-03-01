@@ -1,16 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  background: #fff;
-  font-family: "Poppins", sans-serif;
-}
 
 .about__section {
-
   width: 100%;
   height: 100%;
   margin-top: 30px;
