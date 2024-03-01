@@ -32,24 +32,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-.about__section h5::before{
-    position: absolute;
-  content: "";
-  width: 8px;
-  height: 8px;
-  background-color:#4582ff;
-  top: 11.43%;
-    left: 42%;
-}
-.about__section h5::after{
-    position: absolute;
-  content: "";
-  width: 8px;
-  height: 8px;
-  background-color:#4582ff;
-  top: 11.43%;
-    right: 42%;
-}
+
 .courses__container {
   width: 100%;
   height: 100%;
@@ -166,78 +149,79 @@ body {
 
 
 /* ============stud plan  */
-.studyplan{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    padding: 10px 80px;
-}
-
-
-.studyplan__container{
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    background-image: url(./assests/images/work_img_4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-}
- 
-.studyplan__container_img{
-    width:60%;
-    height: 300px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.studyplan__container_img img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.studyplan__container_text{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin-left: 100px;
-}
-.studyplan__container_text h1{
-    font-size: 2.5rem;
+.studyplan {
+  width: 100%;
+  padding: 50px 0;
   
-    margin-bottom: 10px;
-}
-.studyplan__container_text p{
-    font-size: 1rem;
   
-    margin-bottom: 10px;
 }
-.studyplan__container_text button{
 
-    padding: 20px 30px;
-    border: none;
-    outline: none;
-    background-color: #3d63df;
-    color: #fff;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-    text-transform: capitalize;
-    font-weight: 600;
+.studyplan__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-image: url('./assests/images/about_top_bg.778b8e91.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
 }
-.studyplan__container_text button:hover{
-    background-color: #2d56db;
-    transform: scale(0.9);
-    transition: 0.3s;
-    
+
+.studyplan__container_img {
+  flex: 1;
+  height: 100%;
 }
+
+.studyplan__container_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.studyplan__container_text {
+  flex: 1;
+  padding: 30px;
+}
+
+.studyplan__container_text h1 {
+  font-size: 2.5rem;
+
+  margin-bottom: 20px;
+}
+
+.studyplan__container_text p {
+  font-size: 1.1rem;
+
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.studyplan__container_text .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #3d63df;
+
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.studyplan__container_text .btn:hover {
+  background-color: #2d56db;
+}
+
+
+
+
+
+
+
+
+
+
