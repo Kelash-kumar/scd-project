@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--paraFont, sans-serif);
+    
+}
+
+:root {
+    --colorPrimary: #ff7f46;
+    --bgColor:#ebf7f7;
+    --colorBlue: #4582ff;
+    --colorGreen: #00d6d3;
+    --colorBlack: #0f2239;
+    --paraColor: #636363;
+    --ratingColor: #f1cc38;
+    --colorWhite: #fff;
+    --paraFont: "Rubik", sans-serif;
+    --headingFont: "Montserrat", sans-serif;
+    --box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;
+}
+/* defining the global value section container p heading etc */
+body {
+    line-height: 1.6;
+    color: var(--paraColor);
+}
