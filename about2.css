@@ -1,0 +1,217 @@
+
+
+.about__section {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__section h1 , .upcoming_Event h1{
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+ text-transform: capitalize;
+}
+
+.about__section h5 , .upcoming_Event h5{
+  font-size: 1rem;
+  color: #4582ff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.courses__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 10px 80px;
+}
+
+.course_card {
+  width: 350px;
+  height: 130px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+  transform: skew(-15deg, 0.1deg);
+  border-left: 3px solid #2d56db;
+  background-color: #f3f7fb;
+  background-image: url(./assests/images/work_img_4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.courses__container_icon {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #3d63df;
+  left: -30px;
+}
+
+.courses__container_icon i {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.courses__card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  transform: skew(19deg, -0.5deg);
+}
+
+.courses__card_text h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.courses__card_text p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.course_card::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: #f3f7fb;
+  transition: 0.1s ease-in;
+}
+
+.course_card:hover::after {
+  opacity: 0.8;
+  background-color: #3d63df;
+}
+.course_card:nth-child(1):hover::after {
+    background-color: #8e56ff;
+}
+.course_card:nth-child(2):hover::after {
+    background-color: #4582ff;
+}
+.course_card:nth-child(3):hover::after {
+    background-color: #1ab69d;
+}
+.course_card:nth-child(4):hover::after {
+    background-color: #ada729;
+}
+.course_card:nth-child(5):hover::after {
+    background-color: #ff7f46;
+}
+.course_card:nth-child(6):hover::after {
+    background-color: #ff5b5c;
+}
+
+.course_card:hover .courses__card_text h1 {
+  color: #fff;
+  transition: 0.5s;
+}
+.course_card:hover .courses__card_text p {
+  color: #fff;
+  transition: 0.5s;
+}
+
+
+
+/* ============stud plan  */
+.studyplan {
+  width: 100%;
+  padding: 50px 0;
+  
+  
+}
+
+.studyplan__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-image: url('./assests/images/about_top_bg.778b8e91.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.studyplan__container_img {
+  flex: 1;
+  height: 100%;
+}
+
+.studyplan__container_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.studyplan__container_text {
+  flex: 1;
+  padding: 30px;
+}
+
+.studyplan__container_text h1 {
+  font-size: 2.5rem;
+
+  margin-bottom: 20px;
+}
+
+.studyplan__container_text p {
+  font-size: 1.1rem;
+
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.studyplan__container_text .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #3d63df;
+
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.studyplan__container_text .btn:hover {
+  background-color: #2d56db;
+}
+
+
+
+
+
+
+
+
+
+
