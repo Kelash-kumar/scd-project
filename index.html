@@ -24,7 +24,7 @@
     <!-- blog and news css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    <link rel="stylesheet" href="./blog.css">
+    <link rel="stylesheet" href="./blog&news.css">
     <!-- contact css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./contact.css">
@@ -257,82 +257,8 @@
     <!--BLOG&NEWS SECTION CODE WILL START START BELOW  THIS -->
     <!-- BLOG&NEWS SECTION CODE HERE  -->
 
-     <!-- HOME SECTION CODE WILL START BELOW THIS  -->
-     <section id="contact">
-    <div class="contact-container">
-
-    
-     <h1 class="section-header">Contact</h1>
-     
-     <div class="contact-wrapper">
-     
-     <!-- Left contact page --> 
-       
-       <form id="contact-form" class="form-horizontal" role="form">
-          
-         <div class="form-group">
-           <div class="col-sm-12">
-             <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
-           </div>
-         </div>
-   
-         <div class="form-group">
-           <div class="col-sm-12">
-             <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
-           </div>
-         </div>
-   
-         <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-         
-         <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-           <div class="alt-send-button">
-             <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-           </div>
-         
-         </button>
-         
-       </form>
-       
-     <!-- Left contact page --> 
-       
-         <div class="direct-contact-container">
-   
-           <ul class="contact-list">
-             <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
-             
-             <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
-             
-             <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
-             
-           </ul>
-   
-           <hr>
-           <ul class="social-media-list">
-             <li><a href="#" target="_blank" class="contact-icon">
-               <i class="fa fa-github" aria-hidden="true"></i></a>
-             </li>
-             <li><a href="#" target="_blank" class="contact-icon">
-               <i class="fa fa-codepen" aria-hidden="true"></i></a>
-             </li>
-             <li><a href="#" target="_blank" class="contact-icon">
-               <i class="fa fa-twitter" aria-hidden="true"></i></a>
-             </li>
-             <li><a href="#" target="_blank" class="contact-icon">
-               <i class="fa fa-instagram" aria-hidden="true"></i></a>
-             </li>       
-           </ul>
-           <hr>
-   
-           <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
-   
-         </div>
-       
-     </div>
-    </div>
-     </section> 
-     <!-- HOME SECTION CODE  ENDED HERE -->
-
- <section id="contact">
+     <!-- CONTACT SECTION CODE WILL START BELOW THIS  -->
+    <section id="contact">
     <div class="contact-container">
 
     
@@ -404,6 +330,7 @@
      </div>
     </div>
    </section> 
+    <!-- CONTACT SECTION CODE  ENDED HERE -->
 
      <!-- FOOTER CODE WILL START BELOW THIS  -->
      <footer>
@@ -484,7 +411,43 @@
 
     
    <script src="/script.js"></script>
+   <script src="./app.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slick-blog-cards').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                infinite: true,
+                centerMode: false,
+                centerPadding: '60px',
+                responsive: [
+                    {
+                        breakpoint: 920,
+                        settings: {
+                            slidesToShow: 2,
+                            centerMode: false
+                        }
+                    },
 
+
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode: false
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+  </body>
 </html>
