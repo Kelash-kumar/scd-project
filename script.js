@@ -1,3 +1,41 @@
+// Select the hamburger icon, nav-list, open icon, and close icon
+const hamburger = document.querySelector('.hamburger');
+const navList = document.querySelector('.nav-list');
+const menuIcon = document.querySelector('[name="menu-outline"]');
+const closeIcon = document.querySelector('[name="close-outline"]');
+
+
+// Function to close the navbar menu
+function closeNavbarMenu() {
+    navList.classList.remove('active');
+    menuIcon.style.display = 'block';
+    closeIcon.style.display = 'none';
+}
+
+// Add event listener to the hamburger icon
+hamburger.addEventListener('click', function() {
+  // Toggle the 'active' class on the nav-list
+  navList.classList.toggle('active');
+  
+  // Toggle between showing menu icon and close icon
+  if (menuIcon.style.display === 'none') {
+    menuIcon.style.display = 'block';
+    closeIcon.style.display = 'none';
+  } else {
+    menuIcon.style.display = 'none';
+    closeIcon.style.display = 'block';
+  }
+});
+
+// Add event listener to document to close navbar menu when clicking outside navbar
+document.addEventListener('click', function(event) {
+    const isClickInsideNavbar = navbar.contains(event.target);
+    if (!isClickInsideNavbar) {
+      closeNavbarMenu();
+    }
+});
+
+
 const cards = document.querySelectorAll('.course_card');
 const iconCard = document.querySelectorAll('.courses__container_icon ');
 const icon = document.querySelectorAll('.courses__container_icon i');
