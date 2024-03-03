@@ -1,0 +1,335 @@
+<<<<<<< HEAD
+/* section */
+.upcoming_Event{ 
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./images/work_bg.36bd86b8.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+  
+}
+.upcoming_Event h1{
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 40px;
+  color: var(--colorBlack); /* using CSS variable for color */
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.upcomign_event_top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+.upcoming_Event h5{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.9rem;
+  color: var(--colorBlack); /* using CSS variable for color */
+  text-transform: capitalize;
+  color: var(--colorBlue); /* using CSS variable for color */
+}
+.events_InnerCrousel_container{
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  margin: 0% 5%;
+  gap: 20px;
+}
+
+/* CSS for the events_cards */
+.events_cards {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 20px;
+  width: 400px;
+  border: 1px solid var(--paraColor); /* using CSS variable for color */
+  transition: 0.5s ease;
+}
+.events_cards:hover {
+ border : 1px solid var(--colorPrimary); /* using CSS variable for color */
+  transition: 0.5s ease;
+}
+/* .events_cards_img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 20px;
+} */
+.events_cards_img img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  margin-bottom: 10px;
+  padding: 0;
+  transition: 0.5s;
+}
+
+.events_cards_text {
+  text-align: center;
+  padding: 20px;
+}
+.events_cards_location,
+.events_cards_timing,
+.events_cards_date {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  gap: 10px;
+  text-transform: capitalize;
+}
+.events_cards_location i,
+.events_cards_timing i,
+.events_cards_date i {
+  margin-right: 5px;
+  font-size:15px;
+  color: var(--colorBlue); /* using CSS variable for color */
+}
+.events_cards_price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 2px solid var(--colorBlack); /* using CSS variable for color */
+  margin-top: 10px;
+}
+.events_cards:hover .events_cards_price{
+  border-top: 3px solid var(--colorPrimary); /* using CSS variable for color */
+  transition: 0.1s;
+}
+
+/* Additional CSS for modern design */
+
+
+
+.events_cards_price h1 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.events_cards_price p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.events_cards_text >h1{
+  font-size: 1.2rem;
+  color: var(--colorBlack); /* using CSS variable for color */
+}
+.events_cards_text >p{
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+.events_cards_text >h1:hover{
+  color: var(--colorPrimary); /* using CSS variable for color */
+}
+
+/* write the responsive css for all screen  */
+@media only screen and (max-width: 768px){
+  .events_InnerCrousel_container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .events_cards{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .upcoming_Event h1{
+    font-size: 2.2rem;
+  }
+}
+=======
+ .upcoming_Event{ 
+    width: 100%;
+    height: 100%;
+    margin: 100px 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/work_bg.36bd86b8.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+    
+  }
+  .upcoming_Event h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--colorBlack); /* using CSS variable for color */
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .upcomign_event_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+  }
+  .upcoming_Event h5{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.9rem;
+    color: var(--colorBlack); /* using CSS variable for color */
+    text-transform: capitalize;
+    color: var(--colorBlue); /* using CSS variable for color */
+  }
+  .events_InnerCrousel_container{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin: 0% 5%;
+    gap: 20px;
+  }
+  
+  /* CSS for the events_cards */
+  .events_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 20px;
+    width: 380px;
+    border: 1px solid var(--paraColor); /* using CSS variable for color */
+    transition: 0.5s ease;
+  }
+  .events_cards:hover {
+   border : 1px solid var(--colorPrimary); /* using CSS variable for color */
+    transition: 0.5s ease;
+  }
+  .events_cards_img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .events_cards_img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: 0.5s;
+  }
+  
+  .events_cards_img:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  .events_cards_text {
+    text-align: center;
+  }
+  .events_cards_location,
+  .events_cards_timing,
+  .events_cards_date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 10px;
+    text-transform: capitalize;
+  }
+  .events_cards_location i,
+  .events_cards_timing i,
+  .events_cards_date i {
+    margin-right: 5px;
+    font-size:15px;
+    color: var(--colorBlue); /* using CSS variable for color */
+  }
+  .events_cards_price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 2px solid var(--colorBlack); /* using CSS variable for color */
+    margin-top: 10px;
+  }
+  .events_cards:hover .events_cards_price{
+    border-top: 3px solid var(--colorPrimary); /* using CSS variable for color */
+    transition: 0.1s;
+  }
+  
+  /* Additional CSS for modern design */
+  .events_cards h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .events_cards p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .events_cards_price h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--colorPrimary); /* using CSS variable for color */
+  }
+  
+  .events_cards_price p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .events_cards_text >h1{
+    font-size: 1.5rem;
+    color: var(--colorBlack); /* using CSS variable for color */
+    margin-bottom: 10px;
+  }
+  .events_cards_text >p{
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  .events_cards_text >h1:hover{
+    color: var(--colorPrimary); /* using CSS variable for color */
+  }
+  
+  /* write the responsive css for all screen  */
+  @media screen and (max-width: 768px) {
+    .events_InnerCrousel_container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .events_cards {
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .events_cards_img {
+        height: 200px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .events_cards_img img {
+        height: 200px;
+    }
+  }
+  
+  /* screen below then 768px */
+  @media screen and (max-width: 480px) {
+    .events_cards {
+        width: 100%;
+    }
+  }
+>>>>>>> 21sw52
