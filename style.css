@@ -20,6 +20,7 @@
     --box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;
 }
 /* defining the global value section container p heading etc */
+<<<<<<< HEAD
 body {
     line-height: 1.6;
     color: var(--paraColor);
@@ -314,3 +315,5 @@ background: linear-gradient(90deg, rgba(234,249,246,1) 0%, rgba(237,236,249,1) 8
         display: none;
     }
 }
+=======
+>>>>>>> 19a13e282e1cf9a1d163b460f504a243a3ef00f6
