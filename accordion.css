@@ -1,7 +1,6 @@
 .FAQs_section {
     width: 100%;
     height: 100vh;
-    /* background-color: #f3f7fb; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,12 +20,11 @@
   }
   
   .FAQs__container {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   
   }
@@ -208,14 +206,15 @@
       flex-direction: column;
       border: 0;
       box-shadow: none;
-      margin: 100px 0px;
+      margin-top: 320px;
     }
     .FAQs_img_div {
       width: 100%;
     }
     .FAQs_img_div img {
-      width: 600px;
-      height: 600px;
+    
+      width: 320px;
+      height: 320px;
       object-fit: cover;
       border-style: inset;
       border: none;
@@ -233,6 +232,7 @@
     }
     .accordion-item {
       width: 100%;
+      margin: 0;
     }
     .accordion_headings_content h5 {
       font-size: 1.2rem;
@@ -259,10 +259,10 @@
   
   /* for 700 */
   @media (max-width: 700px) {
-    .FAQs_img_div img {
-      width: 400px;
-      height: 400px;
-    }
+    .FAQs__container__accordian {
+      margin-bottom: 200px;
+     }
+    
     .FAQs__container__accordian h1 {
       font-size: 1.5rem;
     }
@@ -292,6 +292,7 @@
   
   /* for 500 */
   @media (max-width: 500px) {
+    
     .FAQs_img_div img {
       width: 300px;
       height: 300px;
@@ -325,6 +326,7 @@
   /* for 400 */
   
   @media (max-width: 400px) {
+   
     .FAQs_img_div img {
       width: 200px;
       height: 200px;
@@ -333,22 +335,28 @@
       font-size: 1rem;
     }
     .FAQs__container__accordian p {
-      font-size: 0.5rem;
+      font-size: 1rem;
     }
     .accordion_headings_content h5 {
-      font-size: 0.6rem;
+      font-size: 1rem;
     }
     .accordion_headings_content h1 {
       font-size: 1rem;
     }
     .accordion_headings_content p {
-      font-size: 0.5rem;
+      font-size: 0.99rem;
+    }
+    .accordion-item .acoordion_checked_marked{
+      width: 20px;
+      height: 20px;
+      margin-right: 20px;
     }
     .accordion-title {
       font-size: 10px;
     }
     .accordion-content {
-      font-size: 6px;
+      font-size: 11px;
+      padding: 0;
     }
     .FAQs_section {
       margin: 10px 0px;
