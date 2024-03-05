@@ -1,6 +1,5 @@
 .FAQs_section {
     width: 100%;
-<<<<<<< HEAD
     height: 100vh;
     /* background-color: #f3f7fb; */
     display: flex;
@@ -11,7 +10,6 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-=======
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +17,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
->>>>>>> 6f1dbe9 (added the neccessary images and text changed)
     margin: 100px 0px;
   }
   
@@ -29,12 +26,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-=======
   
->>>>>>> 6f1dbe9 (added the neccessary images and text changed)
   }
   
   .FAQs_img_div {
@@ -46,32 +40,25 @@
   }
   
   .FAQs_img_div img {
-<<<<<<< HEAD
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-style: inset;
     border: none;
     /* border-radius: 50%; */
-=======
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-style: inset;
     border: none;
     border-radius: 50%;
->>>>>>> 6f1dbe9 (added the neccessary images and text changed)
   }
   .FAQs_img_div img:hover {
     transform: scale(1.04);
     transition: transform 0.5s ease;
   }
   
-<<<<<<< HEAD
-  .FAQs_container_accordian {
-=======
   .FAQs__container__accordian {
->>>>>>> 6f1dbe9 (added the neccessary images and text changed)
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -102,11 +89,8 @@
   }
   
   .accordion {
-<<<<<<< HEAD
     width: 95%;
-=======
     width: 100%;
->>>>>>> 6f1dbe9 (added the neccessary images and text changed)
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -114,15 +98,12 @@
   }
   
   .accordion-item {
-<<<<<<< HEAD
     width: 95%;
     background-color: #f8f8f8;
     padding: 20px 20px;
-=======
     width: 100%;
     background-color: #f8f8f8;
     padding: 5px 5px;
->>>>>>> 6f1dbe9 (added the neccessary images and text changed)
     border-radius: 10px;
     cursor: pointer;
     position: relative;
@@ -140,10 +121,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
-<<<<<<< HEAD
-=======
     padding: 0 20px;
->>>>>>> 6f1dbe9 (added the neccessary images and text changed)
   }
   
   .accordion-content {
@@ -162,7 +140,6 @@
     align-items: center;
     border-radius: 50%;
     color: #fff;
-<<<<<<< HEAD
   }
   /* image with animated continuous */
   #rocket-image {
@@ -220,11 +197,10 @@
     .FAQs_container_accordian {
       width: 100%;
       height: 50%;
-=======
     padding: 8px;
     margin-right: 20px;
   }
- 
+}
   /* responsive for all screens all breakpoints*/
   @media (max-width: 992px) {
     .FAQs__container {
@@ -376,6 +352,5 @@
     }
     .FAQs_section {
       margin: 10px 0px;
->>>>>>> 6f1dbe9 (added the neccessary images and text changed)
     }
   }
