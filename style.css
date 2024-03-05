@@ -32,7 +32,7 @@ html, body {
 /* navbar styling */
 .navbar {
     width: 100%;
-    background-color: #ECF6F6;
+    background-color: #ffff;
     padding: 15px;
     position: fixed;
     z-index: 999;
@@ -266,6 +266,7 @@ html, body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #fffffff3;
     }
     
     .nav-list li{

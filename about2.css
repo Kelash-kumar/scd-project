@@ -231,6 +231,40 @@
     font-size: 0.9rem;
   }
 }
+/* responsive of mobile view */
+@media screen and (max-width: 500px){
+ .about__section h1 , .upcoming_Event h1{
+   font-size: 1.5rem;
+ }
+
+  .about__section h5 , .upcoming_Event h5{
+    font-size: 1rem;
+  }
+  .courses__container{
+    padding: 10px 10px;
+  }
+  .course_card{
+    width: 250px;
+  }
+  .courses__container_icon{
+    width: 60px;
+    height: 60px;
+    left: -20px;
+  }
+  .courses__container_icon i{
+    font-size: 1.9rem;
+  }
+  .courses__card_text h1{
+    font-size: 1.2rem;
+  }
+  .courses__card_text p{
+    font-size: 0.8rem;
+  }
+  .studyplan__container_img {
+    height: 300px;
+  }
+}
+  
 /* responsive study plan  */
 @media (max-width: 768px) {
   .studyplan__container {
