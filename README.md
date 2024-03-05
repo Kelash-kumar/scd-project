@@ -63,7 +63,7 @@ This repository hosts the codebase for Eduor an Educational Website made for the
 
 ---
 
-## Challenge 1
+## Challenge 1 - Working With Branch
 The very first challenge we faced was working with branches
 ### Approach
 We used Chat-GPT, StackOverFlow and YouTube to learn working with branches
