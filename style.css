@@ -204,23 +204,6 @@ html, body {
     text-transform: none;
 }
   
-.home-container button {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #fff;
-    border: none;
-    background-color: var(--colorPrimary);
-    padding: 10px 15px;
-    border-radius: 100px;
-    margin: 10px 0;
-    cursor: pointer;
-    transition: all 0.8s ease;
-}
-  
-.home-container button:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 5px #C58966;
-}
   
 .home-container .image {
     width: 48%;

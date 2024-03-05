@@ -39,11 +39,12 @@
         <ul class="nav-list">
             <li class="nav-items"><a href="#home" class="tcolor">Home</a></li>
             <li class="nav-items"><a href="#aboutus" class="tcolor">About Us</a></li>
-            <li class="nav-items"><a href="#courses" class="tcolor">courses</a></li>
+            <li class="nav-items"><a href="#courses" class="tcolor">Courses</a></li>
             <li class="nav-items"><a href="#blog" class="tcolor">Blog</a></li>
             <li class="nav-items"><a href="#events" class="tcolor">Events</a></li>
+            <li class="nav-items"><a href="#FAQs" class="tcolor">FAQs</a></li>
             <li class="nav-items"><a href="contact.html" class="tcolor">Contact Us</a></li>
-            <li class="nav-items"><a href="#" class="highlight">Learn More</a></li>
+            <li class="nav-items"><a href="developerTeam.html" class="highlight">Developer Team</a></li>
         </ul>
 
         <!-- hamburger -->
@@ -63,7 +64,6 @@
             <h5 class="Welcome">Welcome to Your Learning Hub!</h5>
             <!-- <h2>Students for <span>Little</span> Education from.</h2> -->
             <h2>Nurturing <span>Young Minds</span> for Lifelong Learning</h2>            <p class="para">Start your journey towards knowledge and success with <strong>EDUOR</strong>. Explore our vast collection of resources, engage with interactive content, and excel in your learning endeavors.</p>
-            <button>READ MORE</button>
         </div>
         <div class="image">
             <img src="./assests/images/home-bg.png" alt="Home image">
@@ -228,8 +228,10 @@
         </div>
         
     </section>
-    <!-- ABOUT SECTION CODE HERE  -->
-    <section class="FAQs_section">
+    <!-- ABOUT SECTION END HERE  -->
+
+    <!-- FAQs || ACCORDION SECTION STARTED -->
+    <section class="FAQs_section" id="FAQs">
         <div class="FAQs__container">
             <div class="FAQs_img_div">
                 <img src="assests/images/faq_img.jpg" alt="">
@@ -284,10 +286,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- FAQs || ACCORDION SECTION STARTED -->
-
+    </section> 
     <!-- FAQs ENDED HERE -->
     
     <!--UPCOMING-EVENT SECTION CODE WILL START START BELOW  THIS -->
@@ -325,7 +324,7 @@
                     </div>
                     <!-- price div -->
                     <div class="events_cards_price">
-                        <span >Host by: Kelash Kumar</span>
+                        <span >Hosted by: Kelash Kumar</span>
                         <Strong>$50</Strong>
                     </div>
                 </div>
@@ -358,7 +357,7 @@
                     <!-- price div -->
                     <div class="events_cards_price">
                        <span>
-                           Host by: Saddar U Din
+                           Hosted by: Saddar U Din
                        </span>
                        <Strong>$80</Strong>
                     </div>
@@ -390,7 +389,7 @@
                     </div>
                     <!-- price div -->
                     <div class="events_cards_price">
-                        <span>Host by: Sandeep and Shahid Hussain </span>
+                        <span>Hosted by: Sandeep & Shahid Hussain </span>
                         <Strong>$130</Strong>
                     </div>
                 </div>
@@ -401,6 +400,75 @@
 
      
     <!--BLOG&NEWS SECTION CODE WILL START START BELOW  THIS -->
+    <section class="blog-section" id="blog">
+        <div class="blog-container">
+            <div class="blog-section-headingText">
+                <h5>Latest news & blog</h5>
+                <h2>our latest blog and news </h2>
+            </div>
+            <!--slick card and slick dots  -->
+            <div class="slick-blog-cards">
+                <!-- blogs card contains: image, button, title, paragraph, button -->
+                <div class="blog-card">
+                    <div class="blog-card-image">
+                    <img src="assests/images/travel.jpg" alt="Travel blog">
+                    </div>
+                    <div class="blog-card-text">
+                        <span class="blog-type" style="background-color: rgb(243, 169, 32);"
+                            style="background-color: rgb(159, 187, 4);">travel</span>
+                        <h2>Top 10 Must-Visit Destinations for Adventure Seekers</h2>
+                        <p>Embark on thrilling adventures by visiting these breathtaking destinations around the world.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <!-- Add more blog cards here -->
+                <div class="blog-card">
+                    <div class="blog-card-image">
+                    <img src="assests/images/technology.jpg" alt="technology blog">
+                    </div>
+                    <div class="blog-card-text">
+                        <span class="blog-type" style="background-color: rgb(3, 124, 124);">technology</span>
+                        <h2>Mastering JavaScript: Tips and Tricks for Web Developers</h2>
+                        <p>
+                            Learn how to become a JavaScript expert with these useful tips and tricks for web
+                            developers.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-card-image">
+                    <img src="assests/images/design.jpg" alt="design blog">
+                    </div>
+                    <div class="blog-card-text">
+                        <span class="blog-type" style="background-color: rgb(116, 44, 36);">Design</span>
+                        <h2>Learn with these award-winning best blog collage courses</h2>
+                        <p>We can provide you with a reliable hand in London you need today.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-card-image">
+                    <img src="assests/images/food.jpg" alt="food blog ">
+                    </div>
+                    <div class="blog-card-text">
+                        <span class="blog-type" style="background-color: rgb(117, 110, 3);">Food</span>
+                        <h2>Delicious and Nutritious: Healthy Recipes for a Balanced Diet</h2>
+                        <p>Discover tasty recipes that will help you maintain a healthy and balanced diet.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <ul class="slick-dots">
+
+            </ul>
+        </div>
+    </section>
     <!-- BLOG&NEWS SECTION CODE HERE  -->
 
      <!-- FOOTER CODE WILL START BELOW THIS  -->
@@ -424,6 +492,7 @@
                     <li><a href="#courses">Courses</a></li>
                     <li><a href="#events">Events</a></li>
                     <li><a href="#blog">Blogs</a></li>
+                    <li><a href="#FAQs">FAQs</a></li>
                     <li><a href="/contact.html">Reach us</a></li>
                      
                 </ul>
@@ -432,9 +501,9 @@
             <div class="footer-col ">
                 <h4>Contact Us</h4>
                 <ul>
-                    <li><i class="fas fa-map-marker-alt"></i> 123, Main Street, Your City</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Sindh University Colony Phase-2, Jamshoro</li>
                     <li><i class="fas fa-phone-alt"></i> 123-456-7890</li>
-                    <li><i class="fas fa-envelope"></i> eduror@students.edu.com</li>
+                    <li><i class="fas fa-envelope"></i> eduror@edu.com</li>
                 </ul>
             </div>
             <!-- 4 - social media -->
