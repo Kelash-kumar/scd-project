@@ -35,7 +35,7 @@ document.addEventListener('click', function(event) {
     }
 });
 
-
+// code for Course section
 const cards = document.querySelectorAll('.course_card');
 const iconCard = document.querySelectorAll('.courses__container_icon ');
 const icon = document.querySelectorAll('.courses__container_icon i');
@@ -57,7 +57,60 @@ cards.forEach((card, index) => {
         icon[index].style.color = 'white';
     });
 });
- 
 
 
+
+
+// Accordion section of the FAQ
+document.addEventListener('DOMContentLoaded', function() {
+    let accordionItems = document.querySelectorAll('.accordion-item');
+  
+    accordionItems.forEach(item => {
+        item.querySelector('.accordion-title').addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            const parentItem = this.parentElement;
+  
+            parentItem.classList.toggle('active'); // Toggle active class on click
+  
+            if (parentItem.classList.contains('active')) {
+                content.style.maxHeight = content.scrollHeight + 'px'; // Expand content
+            } else {
+                content.style.maxHeight = '0'; // Collapse content
+            }
+        });
+    });
+  });
+
+// crousel of blogandnews section
+   
+$(document).ready(function () {
+  $('.slick-blog-cards').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
+      infinite: true,
+      centerMode: false,
+      centerPadding: '60px',
+      responsive: [
+          {
+              breakpoint: 920,
+              settings: {
+                  slidesToShow: 2,
+                  centerMode: false
+              }
+          },
+
+
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 1,
+                  centerMode: false
+              }
+          }
+      ]
+  });
+});
 

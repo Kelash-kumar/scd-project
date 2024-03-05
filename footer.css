@@ -1,9 +1,10 @@
   /* footer */
   footer {
+    width: 100%;
     background-color: #333333d8;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
-   background-image: url('./images/footer_bg.b1741027.jpg');
+   background-image: url('assests/images/footer_bg.b1741027.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -46,9 +47,15 @@
     margin-bottom: 10px;
 }
 
+.footer-col ul li i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #b67261;
+}
+
 .footer-col ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #fffdfd;
 }
 
 .footer-text {
@@ -57,7 +64,11 @@
     text-align: center;
     margin-top: 50px;
 }
+.footer-col p{
+    font-size: 16px;
+    margin-top: 20px;
 
+}
 .footer-text p {
     font-size: 18px;
 }
@@ -103,3 +114,22 @@ hr{
     border: 1px solid #ff7e5f;
     margin: 20px 0;
 }
+footer ul li a:hover{
+    text-decoration: underline;
+}
+/* responsive for all screen  */
+@media screen and (max-width: 1000px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-col {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-col {
+        padding: 20px;
+    }
+}
+
