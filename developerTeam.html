@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Developer Team</title>
+</head>
+<body>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    }
+
+    .team-intro {
+    text-align: center;
+    margin-top: 50px;
+    }
+
+  .team-intro h5 {
+    color: #007AFF;
+    font-weight: 700;
+  }
+
+    .team-intro h1 {
+    margin: 20px 0;
+    }
+
+    .team-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 209, 192);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.21);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .team-member .role {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .fa {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #000;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .team-member:hover  {
+    transform: scale(1.2);
+    color: orangered;
+  }
+  .team-member .fa:hover {
+    color: #fff;
+  }
+  /* responsive for all screen */
+  @media (max-width: 768px) {
+    .team-member {
+      width: 80%;
+    }
+  }
+  @media (max-width: 576px) {
+    .team-member {
+      width: 100%;
+    }
+  }
+
+
+
+
+</style>
+<div class="team-intro">
+   <h5>
+    Our Developer Team
+   </h5>
+   <h1>
+    Meet Our Team
+   </h1>
+</div>
+<div class="team-section">
+  <div class="team-member">
+    <img src="./assests/images/kelash.png" alt="kelash kumar ">
+    <h3>Kelash Kumar</h3>
+    <p class="role">MERN Stack <br> Backend Developer</p>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-github" ></a>
+  </div>
+  <div class="team-member">
+    <img src="https://cutt.ly/Hwn6Y0NL" alt="Team Member 2">
+    <h3>Sandeep Moorani</h3>
+    <p class="role">Front End Developer</p>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-github" ></a>
+  </div>
+  <div class="team-member">
+    <img src="https://cutt.ly/Hwn6Y0NL" alt="Team Member 3">
+    <h3>Sadder u din Babar</h3>
+    <p class="role">Data Scientist <br> Front end developer</p>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-github" ></a>
+  </div>
+  <div class="team-member">
+    <img src="https://cutt.ly/Hwn6Y0NL" alt="Team Member 3">
+    <h3>Shaid hussain </h3>
+    <p class="role"> Front end developer</p>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-github" ></a>
+  </div>
+</div>
+
+</body>
+</html>

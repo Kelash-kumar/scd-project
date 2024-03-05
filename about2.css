@@ -1,23 +1,24 @@
 
-
 .about__section {
   width: 100%;
   height: 100%;
-  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .about__section h1 , .upcoming_Event h1{
   font-size: 3rem;
   color: #333;
   text-align: center;
+  font-weight: bold;
  text-transform: capitalize;
 }
 
 .about__section h5 , .upcoming_Event h5{
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #4582ff;
   text-align: center;
   text-transform: uppercase;
@@ -45,7 +46,7 @@
   justify-content: center;
   margin: 10px;
   align-items: center;
-  transform: skew(-15deg, 0.1deg);
+  transform: skew(-11deg, 0.1deg);
   border-left: 3px solid #2d56db;
   background-color: #f3f7fb;
   background-image: url(./assests/images/work_img_4.jpg);
@@ -77,11 +78,11 @@
   justify-content: center;
   align-items: center;
   padding-right: 20px;
-  transform: skew(19deg, -0.5deg);
+  transform: skew(7deg, 0deg);
 }
 
 .courses__card_text h1 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: #333;
   margin-bottom: 10px;
 }
@@ -141,16 +142,13 @@
 /* ============stud plan  */
 .studyplan {
   width: 100%;
-  padding: 50px 0;
-  
-  
+  padding-top: 50px;
 }
 
 .studyplan__container {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background-image: url('./assests/images/about_top_bg.778b8e91.jpg');
@@ -178,8 +176,9 @@
 
 .studyplan__container_text h1 {
   font-size: 2.5rem;
-
   margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .studyplan__container_text p {
@@ -192,8 +191,8 @@
 .studyplan__container_text .btn {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #3d63df;
-
+  background-color: #1c51ff;
+  color: white;
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.1rem;
@@ -204,6 +203,45 @@
 
 .studyplan__container_text .btn:hover {
   background-color: #2d56db;
+}
+/* responsive of mobile view */
+@media screen and (max-width: 768px){
+  .about__section{
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+  .courses__container{
+    padding: 10px 20px;
+  }
+  .course_card{
+    width: 300px;
+  }
+  .courses__container_icon{
+    width: 70px;
+    height: 70px;
+    left: -20px;
+  }
+  .courses__container_icon i{
+    font-size: 2rem;
+  }
+  .courses__card_text h1{
+    font-size: 1.5rem;
+  }
+  .courses__card_text p{
+    font-size: 0.9rem;
+  }
+}
+/* responsive study plan  */
+@media (max-width: 768px) {
+  .studyplan__container {
+    flex-direction: column;
+  }
+  .studyplan__container_img {
+    height: 300px;
+  }
+  .studyplan__container_text {
+    padding: 20px;
+  }
 }
 
 
